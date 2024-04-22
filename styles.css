@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+    color: white;
+    text-align: center;
+}
+
+#sorteia-numero{
+    margin-top: -100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primeiro-input{
+    width: 342px;
+    height: 74px;
+    margin-right: 10px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF40;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.segundo-input{
+    width: 342px;
+    height: 74px;
+    gap: 0px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF40;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+} 
+
+#de{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+#ate{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Estilizando o botão de sorteio */
+.sorteador{
+    margin-top: 20px;
+    display: inline-block;
+
+    width: 342px;
+    height: 72px;
+    border-radius: 10px;
+    background: #AEC346;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilizando popup da contagem regressiva*/
+
+.popup-wrapper{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: 17% auto;
+    padding: 20px;
+    background: none;
+    position: relative;
+    border-radius: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+
+}
+
+.popup-close{
+    background-color: red;
+    color: whitesmoke;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 10px;
+    border: solid;
+    border-radius: 60px;
+    cursor: pointer
+}
+.popup-close:active{
+    background-color: rgb(150, 0, 0);
+    color: whitesmoke;
+    box-shadow: 0px 0px 0px 0.8px rgb(150, 0, 0);
+}
+
+
+.countdown{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 342px;
+    height: 190px;
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    box-shadow: 1px 1px 20px 20px rgb(150, 0, 0);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
